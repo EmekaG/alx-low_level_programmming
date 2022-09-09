@@ -24,7 +24,7 @@ int main(void)
 		printf("Last digit of -98 is -8 and is less than 6 and not 0\n");
 	}
 	/* if the last digit of n is zero */
-	else
+	else (n == 0)
 	{
 		printf("Last digit of 980 is 0 and is 0\n");
 	}
