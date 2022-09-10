@@ -3,17 +3,19 @@
 /**
  * main  - Print the alphabets in uppercase and then the lowercase
  *
- * Return: Always 0 (Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch = A;
-	int char = a;
+	char letter;
 
-	for (ch = A; ch <= Z; ch++)
-	for (char = a; char <= z; char++)
-		putchar(ch)
-		putchar(char)
-		putchar('\n')
-	return (0)
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter);
+	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+	putchar('\n');
+
+	return (0);
 }
