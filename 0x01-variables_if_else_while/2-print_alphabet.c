@@ -1,14 +1,17 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- *main - Entry point
+ *main - Print the alphabets in lower case followed by a new line
  *
  *Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	int ch;
-	for (ch == 'a'; ch <= 'z'; ch++)
-		putchar(ch)
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	putchar('\n');
+
 	return (0);
 }
