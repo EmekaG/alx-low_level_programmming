@@ -2,8 +2,8 @@
 
 /**
  * mul - to multiply two integers.
- * @a: integer to be multiplied
- * @b: integer to be multiplied
+ * @a: The first integer to be multiplied
+ * @b: The second integer to be multiplied
  *
  * Return: The result of the multiplication
  */
